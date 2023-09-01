@@ -1,6 +1,6 @@
 # Running a React and Vite App
 
-This README provides a step-by-step guide on how to run this React application using Vite as the build tool. Vite is a fast development server and build tool for modern web development, which works seamlessly with React.
+This README provides a step-by-step guide on how to run this React application.
 
 ## Prerequisites
 
@@ -22,7 +22,7 @@ To get started, follow these steps:
    cd hyperion-dev-test
    ```
 
-3. **Install all the Development Dependency:**
+3. **Install all the necessary dependencies:**
 
    ```bash
    npm install
@@ -38,4 +38,4 @@ Now that you've set up your project, you can start the development server:
    npm run dev
    ```
 
-   Your React app will be available at `http://localhost:5173`.
+   The app will be available at `http://localhost:5173`.
