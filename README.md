@@ -16,6 +16,10 @@ To get started, follow these steps:
 
 1. **Clone the Repository:**
 
+   ```bash
+   git clone https://github.com/charlesnnanna/hyperion-dev-test.git
+   ```
+   
 2. **Navigate to the App Directory:**
 
    ```bash
