@@ -14,7 +14,7 @@ export default function Footer() {
                 <a
                   key={item.name}
                   href={item.href}
-                  className=" hover:text-gray-100"
+                  className=""
                 >
                   <span className="sr-only">{item.name}</span>
                   <item.icon className="h-6 w-6" aria-hidden="true" />
@@ -33,7 +33,7 @@ export default function Footer() {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-base hover:text-gray-100"
+                        className="text-base "
                       >
                         {item.name}
                       </a>
@@ -50,7 +50,7 @@ export default function Footer() {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-base  hover:text-gray-100"
+                        className="text-base  "
                       >
                         {item.name}
                       </a>
@@ -69,7 +69,7 @@ export default function Footer() {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-base hover:text-gray-100"
+                        className="text-base "
                       >
                         {item.name}
                       </a>
@@ -86,7 +86,7 @@ export default function Footer() {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-base hover:text-gray-100"
+                        className="text-base"
                       >
                         {item.name}
                       </a>
@@ -104,7 +104,7 @@ export default function Footer() {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-base hover:text-gray-100"
+                        className="text-base "
                       >
                         {item.name}
                       </a>
