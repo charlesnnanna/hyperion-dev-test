@@ -2,7 +2,7 @@ import Chat from './Chat';
 
 function Benefits() {
   return (
-    <section className=" bg-primary dark:bg-darkBg dark:text-darkText overflow-hidden">
+    <section className=" bg-primary dark:bg-darkBg dark:text-darkText overflow-hidden px-4">
       <h2 className=" text-center text-2xl px-2 lg:text-3xl w-full lg:py-4 py-10">
         We’ll take you from beginner to job ready.
       </h2>

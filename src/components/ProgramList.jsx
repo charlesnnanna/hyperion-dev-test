@@ -33,18 +33,18 @@ const program = [
 function ProgramList() {
   return (
     <>
-      <section className="hero min-h-screen bg-base-200 overflow-hidden">
+      <section className="hero min-h-screen bg-base-200 overflow-hidden lg:py-10">
         <section className="hero-content flex-col lg:flex-row-reverse">
           <img
             className=" w-[80vw] lg:w-[40vw]"
             src="/images/home/couple.webp"
             alt="Two couples working on s laptop together"
           />{' '}
-          <section className="px-7">
-            <h2 className="font-bold text-4xl my-2 lg:my-10">
+          <section className="px-7 ">
+            <h2 className="font-bold text-4xl my-2 lg:my-10 lg:p-5">
               A life-changing experience
             </h2>
-            <section className="mt-6 flex flex-row flex-wrap lg:w-[50vw] gap-8">
+            <section className="my-6 flex flex-row flex-wrap lg:w-[50vw] gap-8  lg:p-5">
               {program.map((item, index) => {
                 return (
                   <ProgramItem

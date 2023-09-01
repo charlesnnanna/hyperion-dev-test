@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Typewriter } from 'react-simple-typewriter';
 import TrialModal from './TrialModal';
 import VideoModal from './VideoModal';
 
@@ -8,10 +9,21 @@ function Hero() {
   return (
     <section
       className="backdrop-blur-xl px-4 lg:px-0 flex flex-col justify-center items-center dark:bg-darkBg
-    lg:h-[600px] w-full"
+    lg:h-[600px] w-full "
     >
       <h1 className="lg:text-6xl text-2xl mt-20 dark:text-darkText">
-        Secure your future
+        {' '}
+        <span>
+          <Typewriter
+            words={['</Secure your future>', '</Learn to code>']}
+            loop={10}
+            cursor
+            cursorStyle="_"
+            typeSpeed={200}
+            deleteSpeed={200}
+            delaySpeed={1000}
+          />
+        </span>
       </h1>
       <p className=" lg:w-[700px] w-full text-center my-4 dark:text-darkText">
         Our online coding bootcamps are set apart by integrating human-led code

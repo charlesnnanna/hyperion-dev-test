@@ -100,7 +100,6 @@ export const trialBootcamps = [
     image: '/images/bootcamps/full-stack.svg',
     alt: 'fullstack-software-engineer-logo',
     title: 'Full Stack Web Software Engineer Bootcamp',
-    name: 'Full Stack Web Software Engineer Bootcamp',
     description:
       'Learn to create complex and powerful software, apps, and websites in our most advanced Immersive bootcamp.',
     type: 'online',
@@ -111,8 +110,6 @@ export const trialBootcamps = [
     image: '/images/bootcamps/software-engineer.svg',
     alt: 'software-engineer-bootcamp-logo',
     title: 'Software Engineer Bootcamp',
-    name: 'Software Engineer Bootcamp',
-
     description:
       'Go from newbie to software engineer in no time. Learn everything you need to create amazing computer programs and software.',
     type: 'online',
@@ -123,7 +120,6 @@ export const trialBootcamps = [
     image: '/images/bootcamps/data-science.svg',
     alt: 'data-science-bootcamp-logo',
     title: 'Data Science (Machine Learning) Bootcamp',
-    name: 'Data Science (Machine Learning) Bootcamp',
     description:
       'Learn to use classic machine learning models and popular data science tools to work with data to empower business, research, and technology.',
     type: 'online',
@@ -154,7 +150,6 @@ export const trialBootcamps = [
     image: '/images/bootcamps/icl-se-logo.png',
     alt: 'imperial-college-software-engineering-bootcamp-logo',
     title: 'Imperial College London Software Engineering Bootcamp',
-    name: 'Imperial College London Software Engineering Bootcamp',
     description:
       'Go from newbie to software engineer in no time. Learn everything you need to create amazing computer programs and software.',
     type: 'on-site',
@@ -165,7 +160,6 @@ export const trialBootcamps = [
     image: '/images/bootcamps/ds-logo.png',
     alt: 'imperial-college-data-science-bootcamp-logo',
     title: 'Imperial College London Data Science Bootcamp',
-    name: 'Imperial College London Data Science Bootcamp',
     description:
       'Learn to use classic machine learning models and popular data science tools to work with data to empower business, research, and technology.',
     type: 'on-site',
