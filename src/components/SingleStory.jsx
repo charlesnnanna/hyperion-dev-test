@@ -7,7 +7,7 @@ function SingleStory(props) {
       <img src={image} alt={`${name}-picture`} />
       <section className="lg:w-[300px] lg:mx-10">
         <p className="py-2">FEATURED STORY</p>
-        <p className="text-3xl py-2">{review}</p>
+        <p className="text-3xl py-2 max-h-[300px]">{review}</p>
         <p className="py-2">{`${name}, ${description}`}</p>
       </section>
     </section>

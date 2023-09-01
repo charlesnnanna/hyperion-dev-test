@@ -8,8 +8,9 @@ function Hero() {
   const [videoOpen, setVideoOpen] = useState(false);
   return (
     <section
-      className="backdrop-blur-xl px-4 lg:px-0 flex flex-col justify-center items-center dark:bg-darkBg
-    lg:h-[600px] w-full "
+      className="backdrop-blur-xl px-4 py-4 lg:px-0 flex flex-col justify-center items-center dark:bg-darkBg
+    lg:h-[600px] w-full bg-[url(/images/icons/polka-dots.png)] dark:bg-[url()] bg-[position:80%_10%] bg-[length:20px]
+      bg-nrepeat"
     >
       <h1 className="lg:text-6xl text-2xl mt-20 dark:text-darkText">
         {' '}

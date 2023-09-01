@@ -9,6 +9,7 @@ import 'react-multi-carousel/lib/styles.css';
 import Students from './components/Students';
 import SuccessStories from './components/SuccessStories';
 import Footer from './components/Footer';
+import BeginTrial from './components/BeginTrial';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Students />
         <SuccessStories />
       </section>
+      <BeginTrial />
       <Footer />
     </main>
   );

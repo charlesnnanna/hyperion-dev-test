@@ -33,14 +33,14 @@ const program = [
 function ProgramList() {
   return (
     <>
-      <section className="hero min-h-screen bg-base-200 overflow-hidden lg:py-10">
+      <section className="hero min-h-screen bg-base-200 overflow-hidden py-4 px-4 lg:py-10">
         <section className="hero-content flex-col lg:flex-row-reverse">
           <img
             className=" w-[80vw] lg:w-[40vw]"
             src="/images/home/couple.webp"
             alt="Two couples working on s laptop together"
           />{' '}
-          <section className="px-7 ">
+          <section className="lg:px-7 ">
             <h2 className="font-bold text-4xl my-2 lg:my-10 lg:p-5">
               A life-changing experience
             </h2>

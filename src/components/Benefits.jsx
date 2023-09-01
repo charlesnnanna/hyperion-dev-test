@@ -2,8 +2,8 @@ import Chat from './Chat';
 
 function Benefits() {
   return (
-    <section className=" bg-primary dark:bg-darkBg dark:text-darkText overflow-hidden px-4">
-      <h2 className=" text-center text-2xl px-2 lg:text-3xl w-full lg:py-4 py-10">
+    <section className=" bg-primary dark:bg-darkBg dark:text-darkText overflow-hidden px-4 py-4">
+      <h2 className=" text-center px-2 text-2xl lg:text-4xl w-full lg:py-4 py-10">
         We’ll take you from beginner to job ready.
       </h2>
       <section className="hero min-h-screen ">
@@ -32,7 +32,7 @@ function Benefits() {
           </section>
           <section className="lg:w-[400px]">
             <p className="uppercase">what sets us apart</p>
-            <h2 className="text-2xl lg:text-3xl  font-semibold ">
+            <h2 tabIndex={0} className="text-2xl lg:text-3xl  font-semibold ">
               We set you up for success
             </h2>
             <p className="py-6 my-5">
@@ -88,7 +88,7 @@ function Benefits() {
           </section>
           <section className="lg:w-[400px]">
             <p className="uppercase">what sets us apart</p>
-            <h2 className="text-2xl lg:text-3xl  font-semibold ">
+            <h2 tabIndex={0} className="text-2xl lg:text-3xl  font-semibold ">
               Your code is reviewed by professionals
             </h2>
             <p className="py-6 my-5">
@@ -110,7 +110,7 @@ function Benefits() {
           </section>
           <section className="lg:w-[400px]">
             <p className="uppercase">what sets us apart</p>
-            <h2 className="text-2xl lg:text-3xl  font-semibold ">
+            <h2 tabIndex={0} className="text-2xl lg:text-3xl  font-semibold ">
               Accessible education{' '}
             </h2>
             <p className="py-6 my-5">

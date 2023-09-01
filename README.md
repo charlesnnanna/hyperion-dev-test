@@ -1,6 +1,6 @@
-# Running a React and Vite App
+# How to run this app on your local machine
 
-This README provides a step-by-step guide on how to run this React application.
+This README provides a step-by-step guide on how to run this application.
 
 ## Prerequisites
 

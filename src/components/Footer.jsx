@@ -3,7 +3,7 @@ import { navigation } from '../data/data';
 export default function Footer() {
   return (
     <footer
-      className="bg-lightBg text-lightText dark:bg-darkBg dark:text-darkText px-6 lg:px-10"
+      className="bg-lightBg text-lightText dark:bg-darkBg dark:text-darkText px-6 py-4 lg:px-10"
       aria-labelledby="footer-heading"
     >
       <section className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">

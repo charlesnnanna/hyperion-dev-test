@@ -40,8 +40,11 @@ export default class Students extends Component {
       ],
     };
     return (
-      <section className=" flex flex-col justify-center items-center py-2 lg:py-12  lg:bg-info">
-        <h2 className="py-4 font-semibold text-2xl lg:text-3xl my-5">
+      <section
+        className=" flex flex-col justify-center items-center py-4 px-4 lg:py-12  lg:bg-info  
+      "
+      >
+        <h2 className="py-4 font-semibold text-2xl lg:text-4xl my-5">
           {' '}
           Meet our Students{' '}
         </h2>

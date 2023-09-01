@@ -4,7 +4,7 @@ import { trialBootcamps } from '../data/data';
 export default function Bootcamps() {
   return (
     <section className="overflow-hidden bg-transparent dark:text-darkText dark:bg-darkBg w-full flex flex-col justify-center items-center px-4 py-10">
-      <h2 className="py-4 font-semibold text-2xl lg:text-3xl ">
+      <h2 className="py-4 font-semibold text-2xl lg:text-4xl ">
         {' '}
         Online Coding Bootcamps
       </h2>
@@ -30,7 +30,7 @@ export default function Bootcamps() {
         </section>
 
         <section>
-          <h2 className="py-4 font-semibold lg:mt-10 mt-5 text-2xl lg:text-3xl text-center">
+          <h2 className="py-4 font-semibold lg:mt-10 mt-5 text-2xl lg:text-4xl lg:text-3xl text-center">
             {' '}
             University Bootcamps
           </h2>

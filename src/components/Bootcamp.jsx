@@ -6,7 +6,7 @@ function Bootcamp(props) {
   return (
     <section
       tabIndex={0}
-      className="card bg-lightBg dark:bg-darkBg shadow-xl hover:shadow-3xl md:w-[400px] md:h-[400px]"
+      className="card bg-lightBg dark:bg-darkBg shadow-xl hover:shadow-3xl md:w-[400px] md:h-[400px] py-4 px-4"
     >
       <h2
         className={classNames(
@@ -21,8 +21,8 @@ function Bootcamp(props) {
       <p className="text-center py-14 px-4">{description}</p>
 
       <ul className="flex flex-col justify-around items-center py-2 list-image-[url(/images/icons/check.svg)] ">
-        <li className="text-xs">{partTime}</li>
-        <li className="text-xs">{fullTime}</li>
+        <li className="text-xs">{partTime} part-time</li>
+        <li className="text-xs">{fullTime} full-time</li>
       </ul>
       <section className="card-actions justify-end"></section>
     </section>

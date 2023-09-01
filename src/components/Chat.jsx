@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 function Chat(props) {
   const { name, message, timestamp, image } = props;
   return (
-    <section className=" flex flex-row  gap-2 my-2 ">
+    <section tabIndex={0} className=" flex flex-row  gap-2 my-2 ">
       <img className="lg:h-28 h-20" src={image} alt="chat-avatar" />
       <section className=" relative shadow-2xl justify-between items-center p-4 flex flex-row bg-white dark:bg-darkBg dark:text-darkText rounded-md  h-20 w-[60vw] lg:w-[300px]">
         <section className="">

@@ -210,7 +210,7 @@ export const reviews = [
     name: 'Amy',
     description: 'From Sales Consultant to Software Developer',
     review:
-      '“I was happiest when I would finally succeed in fixing a bug or getting some tricky code to work perfectly after many hours of struggle.”',
+      '“I believe the post-bootcamp support that HyperionDev offers is unmatched.”',
     image: 'images/video/Amy.jpg',
   },
 
@@ -218,7 +218,7 @@ export const reviews = [
     name: 'Simphiwe',
     description: 'From Student to IT Systems & Full-Stack Web Develope',
     review:
-      '“I was happiest when I would finally succeed in fixing a bug or getting some tricky code to work perfectly after many hours of struggle.”',
+      '“The tech skills I’ve gained from my Bootcamp have been useful at every stage of the development process. ”',
     image: 'images/video/Simphiwe.jpg',
   },
 
@@ -226,7 +226,7 @@ export const reviews = [
     name: 'Busisiwe',
     description: 'From Financial Accountant to Data Analyst',
     review:
-      '“I was happiest when I would finally succeed in fixing a bug or getting some tricky code to work perfectly after many hours of struggle.”',
+      '“With 0 coding experience, the bootcamp helped turn me into a semi-pro. With a bit more experience, I’ll become an expert.”',
     image: 'images/video/Busisiwe.jpg',
   },
 
@@ -234,7 +234,7 @@ export const reviews = [
     name: 'Robin',
     description: 'From Student to Full Stack Developer',
     review:
-      '“I was happiest when I would finally succeed in fixing a bug or getting some tricky code to work perfectly after many hours of struggle.”',
+      '“The HyperionDev Bootcamp helped me develop and curate applicable skills in a manner that is in-demand and relevant to the tech industry.”',
     image: 'images/video/Robin.jpg',
   },
 ];

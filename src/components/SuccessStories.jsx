@@ -40,8 +40,13 @@ export default class SuccessStories extends Component {
       ],
     };
     return (
-      <section className="lg:w-full px-10 py-10 bg-info">
-        <h2 className="py-4 font-semibold text-2xl lg:text-3xl my-5 text-center">
+      <section
+        className="lg:w-full px-10 py-10 bg-info 
+      bg-[url(/images/icons/tile.png)] lg:bg-[position:10%_50%] bg-[position:10%_20%]
+      lg:bg-[length:350px] bg-[length:150px]
+      bg-no-repeat"
+      >
+        <h2 className="py-4 font-semibold text-2xl lg:text-4xl my-5 text-center">
           {' '}
           Success Stories form <span>future leaders</span>
         </h2>
