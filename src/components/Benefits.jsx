@@ -35,11 +35,11 @@ function Benefits() {
             <h2 tabIndex={0} className="text-2xl lg:text-3xl  font-semibold ">
               We set you up for success
             </h2>
-            <p className="py-6 my-5">
+            <p className="py-6 my-5 text-sm lg:text-md">
               Take advantage of career development and networking opportunities
               in the HyperionDev Graduate Program.
             </p>
-            <p className="py-6">
+            <p className="py-6 text-sm lg:text-md">
               Get the best possible preparation for your new career in tech,
               with mock interviews, assistance with polishing your CV and
               developer portfolio, and professional interview tips from our
@@ -91,11 +91,11 @@ function Benefits() {
             <h2 tabIndex={0} className="text-2xl lg:text-3xl  font-semibold ">
               Your code is reviewed by professionals
             </h2>
-            <p className="py-6 my-5">
+            <p className="py-6 my-5 text-sm lg:text-md">
               Every piece of code you write is reviewed by professionals who
               check and refine code for some of the biggest companies out there.
             </p>
-            <p className="py-6">
+            <p className="py-6 text-sm lg:text-md">
               Expert on-demand feedback will get you writing efficient,
               error-free code, and keep you from getting stuck.
             </p>
@@ -113,11 +113,11 @@ function Benefits() {
             <h2 tabIndex={0} className="text-2xl lg:text-3xl  font-semibold ">
               Accessible education{' '}
             </h2>
-            <p className="py-6 my-5">
+            <p className="py-6 my-5 text-sm lg:text-md">
               Learn from anywhere, in a structure that fits your needs, life,
               and goals.
             </p>
-            <p className="py-6">
+            <p className="py-6 text-sm lg:text-md">
               We’re passionate about allowing everyone to have equal access to a
               tech career. Our bootcamps can be taken online or on our campuses,
               full-time or part-time.

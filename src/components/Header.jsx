@@ -24,7 +24,7 @@ function Header() {
     <header
       className={classNames(
         sticky ? ' shadow-xl ' : 'shadow-md',
-        ' sticky top-0 bg-lightBg dark:bg-darkBg  w-full flex flex-row justify-between py-4 px-4 lg:px-10 lg:py-3 z-50 overflow-hidden'
+        ' sticky top-0 bg-lightBg dark:bg-darkBg  w-screen flex flex-row justify-between py-4 px-4 lg:px-10 lg:py-3 z-50 overflow-hidden'
       )}
     >
       <img

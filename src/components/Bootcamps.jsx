@@ -8,7 +8,7 @@ export default function Bootcamps() {
         {' '}
         Online Coding Bootcamps
       </h2>
-      <p className="text-center">
+      <p className="text-center text-sm lg:text-md">
         {' '}
         Transform form a coding novice to a job-ready pro in as little as 3 to 6
         months with our dynamic online coding bootcamps.

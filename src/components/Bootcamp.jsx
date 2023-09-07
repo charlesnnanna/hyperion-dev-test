@@ -18,7 +18,7 @@ function Bootcamp(props) {
       >
         {title}
       </h2>
-      <p className="text-center py-14 px-4">{description}</p>
+      <p className="text-center text-sm lg:text-md py-14 px-4">{description}</p>
 
       <ul className="flex flex-col justify-around items-center py-2 list-image-[url(/images/icons/check.svg)] ">
         <li className="text-xs">{partTime} part-time</li>

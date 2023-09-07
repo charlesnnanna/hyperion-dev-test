@@ -13,8 +13,8 @@ function Student(props) {
         <img className=" w-[699px]" src={image} alt={name} />
       </section>
       <section className="">
-        <h2 className="my-4">{name}</h2>
-        <p className="my-4">{title}</p>
+        <h2 className="my-4 text-sm lg:text-md">{name}</h2>
+        <p className="my-4 text-sm lg:text-md">{title}</p>
         <section className="">
           <button className="btn normal-case" onClick={() => setIsOpen(true)}>
             Watch video

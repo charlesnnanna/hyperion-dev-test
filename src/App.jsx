@@ -15,7 +15,7 @@ function App() {
   return (
     <main
       data-theme={'light'}
-      className="relative bg-gradient-to-b from-primary bg-accent lg:px-0 lg:bg-white text-secondary"
+      className="relative bg-gradient-to-b w-screen  from-primary bg-accent lg:px-0 lg:bg-white text-secondary"
     >
       <Header />
       <Hero />

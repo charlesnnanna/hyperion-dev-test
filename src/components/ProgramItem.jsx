@@ -9,7 +9,9 @@ function ProgramItem(props) {
         <br />
         {title}
       </h2>
-      <p className="font-thin text-sm">{description}</p>
+      <p className="font-thin dark:font-bold text-sm lg:text-md">
+        {description}
+      </p>
     </section>
   );
 }

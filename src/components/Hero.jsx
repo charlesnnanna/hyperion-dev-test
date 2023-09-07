@@ -26,7 +26,7 @@ function Hero() {
           />
         </span>
       </h1>
-      <p className=" lg:w-[700px] w-full text-center my-4 dark:text-darkText">
+      <p className=" lg:w-[700px] w-full text-center text-xs lg:text-xl my-4 dark:text-darkText">
         Our online coding bootcamps are set apart by integrating human-led code
         review. Our deep experience will support your ability to code and help
         you achieve career-focused skills
