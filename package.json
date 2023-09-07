@@ -2,7 +2,7 @@
   "name": "hyperion-dev-test",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://charlesnnanna.github.io/hyperion-dev",
+  "homepage": "https://charlesnnanna.github.io/hyperion-dev-test",
   "type": "module",
   "scripts": {
     "dev": "vite",
