@@ -8,8 +8,8 @@ export default function Footer() {
     >
       <section className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
         <section className="xl:grid xl:grid-cols-3 xl:gap-8">
-          <section className="space-y-8 xl:col-span-1">
-            <section className="flex space-x-6 text-sm lg:text-md">
+          <section className="space-y-8 xl:col-span-1 p-4">
+            <section className="flex space-x-6 text-xs lg:text-md">
               {navigation.social.map((item) => (
                 <a key={item.name} href={item.href} className="">
                   <span className="sr-only">{item.name}</span>
@@ -19,12 +19,12 @@ export default function Footer() {
             </section>
           </section>
           <section className="mt-12 grid grid-cols-2 gap-8 xl:mt-0 xl:col-span-2">
-            <section className="md:grid md:grid-cols-2 md:gap-8">
+            <section className="md:grid md:grid-cols-2 md:gap-8 p-4">
               <section>
-                <h3 className="text-sm lg:text-md font-semibold tracking-wider uppercase">
+                <h3 className="text-xs lg:text-md font-semibold tracking-wider uppercase">
                   Company
                 </h3>
-                <ul role="list" className="mt-4 space-y-4 text-sm lg:text-md">
+                <ul role="list" className="mt-4 space-y-4 text-xs lg:text-md">
                   {navigation.company.map((item) => (
                     <li key={item.name}>
                       <a href={item.href} className="text-base ">
@@ -34,11 +34,11 @@ export default function Footer() {
                   ))}
                 </ul>
               </section>
-              <section className="mt-12 md:mt-0">
-                <h3 className="text-sm lg:text-md font-semibold tracking-wider uppercase">
+              <section className="mt-12 md:mt-0 p-4">
+                <h3 className="text-xs lg:text-md font-semibold tracking-wider uppercase">
                   Employers
                 </h3>
-                <ul role="list" className="mt-4 space-y-4 text-sm lg:text-md">
+                <ul role="list" className="mt-4 space-y-4 text-xs lg:text-md">
                   {navigation.employers.map((item) => (
                     <li key={item.name}>
                       <a href={item.href} className="text-base  ">
@@ -49,12 +49,12 @@ export default function Footer() {
                 </ul>
               </section>
             </section>
-            <section className="md:grid md:grid-cols-2 md:gap-8">
+            <section className="md:grid md:grid-cols-2 md:gap-8 p-4">
               <section>
-                <h3 className="text-sm lg:text-md font-semibold  tracking-wider uppercase">
+                <h3 className="text-xs lg:text-md font-semibold  tracking-wider uppercase">
                   Students
                 </h3>
-                <ul role="list" className="mt-4 space-y-4 text-sm lg:text-md">
+                <ul role="list" className="mt-4 space-y-4 text-xs lg:text-md">
                   {navigation.students.map((item) => (
                     <li key={item.name}>
                       <a href={item.href} className="text-base ">
@@ -64,11 +64,11 @@ export default function Footer() {
                   ))}
                 </ul>
               </section>
-              <section className="mt-12 md:mt-0">
-                <h3 className="text-sm lg:text-md font-semibold tracking-wider uppercase">
+              <section className="mt-12 md:mt-0 p-4">
+                <h3 className="text-xs lg:text-md font-semibold tracking-wider uppercase">
                   Popular Topics
                 </h3>
-                <ul role="list" className="mt-4 space-y-4 text-sm lg:text-md">
+                <ul role="list" className="mt-4 space-y-4 text-xs lg:text-md">
                   {navigation.popular.map((item) => (
                     <li key={item.name}>
                       <a href={item.href} className="text-base">
@@ -79,11 +79,11 @@ export default function Footer() {
                 </ul>
               </section>
 
-              <section className="mt-12 md:mt-0">
-                <h3 className="text-sm lg:text-md font-semibold  tracking-wider uppercase">
+              <section className="mt-12 md:mt-0 p-4">
+                <h3 className="text-xs lg:text-md font-semibold  tracking-wider uppercase">
                   Connect
                 </h3>
-                <ul role="list" className="mt-4 space-y-4 text-sm lg:text-md">
+                <ul role="list" className="mt-4 space-y-4 text-xs lg:text-md">
                   {navigation.connect.map((item) => (
                     <li key={item.name}>
                       <a href={item.href} className="text-base ">
