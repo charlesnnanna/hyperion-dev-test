@@ -6,7 +6,7 @@ function Bootcamp(props) {
   return (
     <section
       tabIndex={0}
-      className="card bg-lightBg dark:bg-darkBg shadow-xl hover:shadow-3xl md:w-[400px] md:h-[400px] py-4 px-4"
+      className="card bg-lightBg dark:bg-darkBg shadow-xl hover:shadow-3xl [min-width: 10vw] md:w-[400px] md:h-[400px] py-4 px-4"
     >
       <h2
         className={classNames(

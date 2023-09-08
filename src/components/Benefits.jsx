@@ -51,7 +51,7 @@ function Benefits() {
 
       <section className="hero min-h-screen">
         <section className="hero-content  flex-col lg:flex-row">
-          <section className="h-80 lg:w-[50vw] w-[80vw] relative">
+          <section className="h-80 lg:w-[50vw] w-[80vw] relative overflow-hidden">
             <img
               className="absolute w-[200px] top-0 left-0 z-10 lg:w-[400px]"
               src="/images/icons/ellipse.png"

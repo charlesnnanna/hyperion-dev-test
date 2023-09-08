@@ -41,7 +41,7 @@ function ProgramList() {
             alt="Two couples working on s laptop together"
           />{' '}
           <section className="lg:px-7 ">
-            <h2 className="font-bold text-4xl my-2 lg:my-10 lg:p-5">
+            <h2 className="font-bold overflow-x-hidden text-2xl lg:text-4xl min-w-[10px] my-2 lg:my-10 lg:p-5">
               A life-changing experience
             </h2>
             <section className="my-6 flex flex-row flex-wrap lg:w-[50vw] gap-8  lg:p-5">
