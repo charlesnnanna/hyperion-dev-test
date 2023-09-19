@@ -8,7 +8,7 @@ function Hero() {
   const [videoOpen, setVideoOpen] = useState(false);
   return (
     <section
-      className="backdrop-blur-xl px-4 py-4 lg:px-0 flex flex-col justify-center items-center dark:bg-darkBg
+      className=" backdrop-blur-xl px-4 py-4 lg:px-0 flex flex-col justify-center items-center dark:bg-darkBg
     lg:h-[600px] w-full bg-[url(/images/icons/polka-dots.png)] dark:bg-[url()] bg-[position:80%_10%] bg-[length:20px]
       bg-nrepeat"
     >
@@ -26,7 +26,7 @@ function Hero() {
           />
         </span>
       </h1>
-      <p className=" lg:w-[700px] w-full text-center text-xs lg:text-xl my-4 dark:text-darkText">
+      <p className=" md:w-[700px] w-full text-center text-xs lg:text-xl my-4 dark:text-darkText">
         Our online coding bootcamps are set apart by integrating human-led code
         review. Our deep experience will support your ability to code and help
         you achieve career-focused skills

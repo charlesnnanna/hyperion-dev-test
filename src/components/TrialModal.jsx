@@ -83,6 +83,7 @@ export default function TrialModal(props) {
                         image={item.image}
                         alt={item.alt}
                         title={item.title}
+                        href={item.href}
                       />
                     );
                   })}

@@ -66,12 +66,12 @@ export default class Students extends Component {
           })}
         </section>
         <section className="lg:hidden">
-          <Slider {...settings} className=" lg:hidden  w-[70vw] mt-5">
+          <Slider {...settings} className=" lg:hidden  w-[70vw] mt-5 ">
             {students.map((item, index) => {
               return (
                 <section
                   key={index + item.video}
-                  className="bg-info shadow-xl  w-[300px] rounded-md p-4"
+                  className="bg-info  w-[300px] rounded-md p-4 "
                 >
                   <Student
                     name={item.name}

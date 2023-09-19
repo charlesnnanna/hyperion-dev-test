@@ -3,7 +3,7 @@ import { navigation } from '../data/data';
 export default function Footer() {
   return (
     <footer
-      className="bg-lightBg text-lightText dark:bg-darkBg dark:text-darkText w-screen px-6 py-4 lg:px-10"
+      className="bg-lightBg text-lightText dark:bg-darkBg dark:text-darkText w-full px-6 py-4 lg:px-10"
       aria-labelledby="footer-heading"
     >
       <section className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 overflow-hidden">
@@ -98,7 +98,8 @@ export default function Footer() {
         </section>
         <section className="mt-12 border-t border-gray-200 pt-8">
           <p className="text-base xl:text-center">
-            &copy; HyperionDev. All rights reserved.
+            &copy; HyperionDev. All rights reserved. Designed by Charles
+            Uthulor.
           </p>
         </section>
       </section>

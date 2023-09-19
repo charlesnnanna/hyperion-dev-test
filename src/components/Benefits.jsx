@@ -105,7 +105,7 @@ function Benefits() {
 
       <section className="hero min-h-screen mt-7 lg:mt-0">
         <section className="hero-content  flex-col lg:flex-row-reverse">
-          <section className="h-80 lg:w-[50%] lg:ml-20">
+          <section className=" lg:w-[50%] lg:ml-20">
             <img src="/images/home/map.png" alt="map" />
           </section>
           <section className="lg:w-[400px]">

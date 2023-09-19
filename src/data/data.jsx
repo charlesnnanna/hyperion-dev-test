@@ -98,6 +98,7 @@ export const companies = [
 export const trialBootcamps = [
   {
     image: '/images/bootcamps/full-stack.svg',
+    href: 'https://www.hyperiondev.com/account/register/?next=/course_registration/immersive/?nextstep=trial',
     alt: 'fullstack-software-engineer-logo',
     title: 'Full Stack Web Software Engineer Bootcamp',
     description:
@@ -108,6 +109,7 @@ export const trialBootcamps = [
 
   {
     image: '/images/bootcamps/software-engineer.svg',
+    href: 'https://www.hyperiondev.com/account/register/?next=/course_registration/software-engineering/?nextstep=trial',
     alt: 'software-engineer-bootcamp-logo',
     title: 'Software Engineer Bootcamp',
     description:
@@ -118,6 +120,7 @@ export const trialBootcamps = [
 
   {
     image: '/images/bootcamps/data-science.svg',
+    href: 'https://www.hyperiondev.com/account/register/?next=/course_registration/data-science-bootcamp/?nextstep=trial',
     alt: 'data-science-bootcamp-logo',
     title: 'Data Science (Machine Learning) Bootcamp',
     description:
@@ -128,6 +131,7 @@ export const trialBootcamps = [
 
   {
     image: '/images/bootcamps/web-logo.png',
+    href: 'https://www.hyperiondev.com/account/register/?next=/course_registration/web-development/?nextstep=trial',
     alt: 'fullstack-bootcamp-logo',
     title: 'Full Stack Web Developer Bootcamp',
     description:
@@ -138,6 +142,7 @@ export const trialBootcamps = [
 
   {
     image: '/images/bootcamps/web-logo.png',
+    href: 'https://www.hyperiondev.com/account/register/?next=/course_registration/icl-web-development/?nextstep=trial',
     alt: 'imperial-college-web-dev-bootcamp-logo',
     title: 'Imperial College London Web Development Bootcamp',
     description:
@@ -148,6 +153,7 @@ export const trialBootcamps = [
 
   {
     image: '/images/bootcamps/icl-se-logo.png',
+    href: 'https://www.hyperiondev.com/account/register/?next=/course_registration/icl-web-development/?nextstep=trial',
     alt: 'imperial-college-software-engineering-bootcamp-logo',
     title: 'Imperial College London Software Engineering Bootcamp',
     description:
@@ -158,6 +164,7 @@ export const trialBootcamps = [
 
   {
     image: '/images/bootcamps/ds-logo.png',
+    href: 'https://www.hyperiondev.com/account/register/?next=/course_registration/icl-web-development/?nextstep=trial',
     alt: 'imperial-college-data-science-bootcamp-logo',
     title: 'Imperial College London Data Science Bootcamp',
     description:
