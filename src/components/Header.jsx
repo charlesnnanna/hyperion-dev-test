@@ -34,20 +34,29 @@ function Header() {
             ? '/images/home/logo-dark.svg'
             : '/images/home/logo.svg'
         }
-        alt="HyperionDev Logo"
+        alt="HyperionDev"
       />
       <p className="w-[300px] text-center text-xs font-semibold hidden lg:block text-lightText dark:text-darkText">
         Join a league of excellence: Our graduates are in high demand with over
         18+ leading companies eagerly recruiting them
       </p>
       <section className="flex flex-row gap-5">
-        <button className="w-7" onClick={changeTheme}>
-          {colorTheme === 'dark' ? (
-            <MoonIcon className="text-lightText" />
-          ) : (
-            <SunIcon className="text-white" />
-          )}
-        </button>
+        {colorTheme === 'dark' ? (
+          <MoonIcon
+            role="button"
+            onClick={changeTheme}
+            className="w-7 text-lightText"
+            aria-describedby="moon-icon"
+          />
+        ) : (
+          <SunIcon
+            role="button"
+            onClick={changeTheme}
+            className="w-7 text-white"
+            aria-describedby="sun-icon"
+          />
+        )}
+
         <button
           onClick={() => setIsOpen(true)}
           className="rounded-md  bg-darkBg hover:border-2  dark:bg-transparent text-darkText dark:text-darkText dark:border dark:border-darkBorder lg:w-[10vw] w-[30vw] text-primary normal-case"
